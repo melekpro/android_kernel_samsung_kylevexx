@@ -25,7 +25,6 @@ jobs:
       - name: Set up environment
         run: |
           export ARCH=arm
-          export CROSS_COMPILE=arm-linux-gnueabi-
           export CROSS_COMPILE=${PWD}/gcc/bin/arm-eabi-
 
           mkdir -p kernel_out
