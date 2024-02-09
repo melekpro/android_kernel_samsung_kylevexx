@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Clone arm-eabi-4.6 repository
-        run: git clone https://github.com/opensource591/arm-eabi-4.6 gcc
+        run: git clone https://github.com/LinerSRT/arm-eabi-4.8 gcc
 
       - name: Install dependencies
         run: |
